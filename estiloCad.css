@@ -1,0 +1,137 @@
+/* Definindo estilos para o corpo da página */
+body {
+    font-family: "Arial"; /* Define a família de fontes para o texto */
+    margin: 0; /* Remove margens externas */
+    padding: 0; /* Remove espaçamento interno */
+    border: 0; /* Remove borda */
+}
+
+/* Estilos para o cabeçalho */
+header {
+    background-color: #bb6d49; /* Define a cor de fundo */
+}
+
+/* Estilos para a barra de navegação */
+nav {
+    position: absolute; /* Define o posicionamento absoluto */
+    right: 392px ; /* Margem direita de 50 pixels */
+    top: 80px; /* Margem superior de 80 pixels */
+
+}
+
+/* Estilos para imagens (atenção: ausência de seletor) */
+/*img {
+    
+        position: absolute; /* Adicione isso para definir o posicionamento */
+   /* right: 200px; /* Move a imagem 200 pixels para a direita */
+    
+    
+    /* No entanto, falta uma propriedade de posicionamento, como 'position: relative;' */
+
+
+/* Estilos para os itens da barra de navegação */
+nav li {
+    display: inline; /* Exibe os itens em linha */
+    margin: 10px 0 0 30px; /* Define margens */
+    
+}
+
+/* Estilos para os links na barra de navegação */
+nav a {
+    color: rgb(161, 245, 25); /* Define a cor do texto */
+    text-decoration: none; /* Remove decoração de texto */
+    text-transform: auto; /* Transformação de texto automática */
+    font-weight: bold; /* Define a espessura da fonte como negrito */
+    font-size: 30px; /* Define o tamanho da fonte como 50 pixels */
+    -webkit-text-stroke-width: 2px; /* Define a largura do contorno do texto */
+    -webkit-text-stroke-color: #000; /* Define a cor do contorno do texto */
+    transition: opacity 0.3s ease-in-out; /* Adicione uma transição suave */
+}
+
+/* Estilos para os links na barra de navegação ao passar o mouse sobre eles */
+nav a:hover {
+    color: rgb(9, 85, 6); /* Altera a cor do texto para preto */
+    text-decoration: none; /* Remove decoração de texto */
+    opacity: 0.8; /* Reduza um pouco a opacidade ao passar o mouse */
+}
+
+/* Estilos para a seção do logo */
+.logo_caixa {
+    position: relative; /* Define o posicionamento relativo */
+    width: 1200px; /* Define a largura como 940 pixels */
+    margin: auto; /* Centraliza horizontalmente com margens automáticas */
+
+}
+
+/* Estilos para o logo */
+.logo {
+    width: 50%; /* Define a largura como metade do elemento pai (.logo_caixa) */
+}
+
+/*******************************************************************************/
+                      /* Estilização do Footer*/
+/*******************************************************************************/
+footer{
+    text-align: center;
+    margin: 0 auto;
+    background-color: black;
+    padding:40px 0 40px 0;
+}
+.copyright{
+    color: white;
+    font-size: 12px;
+    margin: 20px;
+}
+.logo_footer{
+    width: 5%;
+}
+
+
+/*************************************************************************/
+/* estilização  form*/
+/*************************************************************************/
+
+form{
+    margin-top: 20px;
+    margin-left: 20%;
+    margin-bottom: 20px;
+}
+
+form label, form legend{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+fieldset{
+    width: 75%;
+    padding-left: 5%;
+    margin-bottom: 2%;
+}
+
+.input-padrao{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 85%;
+}
+
+.chk{
+    margin: 20px 0;
+}
+
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    background: orange;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 1s all;
+    cursor: pointer;
+}
+
+.enviar:hover{
+    background: darkorange;
+    transform: scale(1.2);
+}

@@ -1,0 +1,185 @@
+ /* Definindo estilos para o corpo da página */
+ body {
+    font-family: "Arial"; /* Define a família de fontes para o texto */
+    margin: 0; /* Remove margens externas */
+    padding: 0; /* Remove espaçamento interno */
+    border: 0; /* Remove borda */
+}
+
+/* Estilos para o cabeçalho */
+header {
+    background-color: #bb6d49; /* Define a cor de fundo */
+}
+
+/* Estilos para a seção de imagens e barra de navegação */
+.imagens-e-nav {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px; /* Ajuste conforme necessário */
+}
+
+/* Estilos para a barra de navegação */
+nav {
+    position: absolute; /* Define o posicionamento absoluto */
+    right: 392px ; /* Margem direita de 50 pixels */
+    top: 40%; /* Margem superior de 80 pixels */
+}
+
+/* Estilos para os itens da barra de navegação */
+nav ul {
+    list-style: none; /* Remove marcadores de lista */
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline; /* Exibe os itens em linha */
+    margin: 0 15px; /* Ajuste conforme necessário */
+}
+
+/* Estilos para os links na barra de navegação */
+nav a {
+    color: rgb(161, 245, 25); /* Define a cor do texto */
+    text-decoration: none; /* Remove decoração de texto */
+    text-transform: auto; /* Transformação de texto automática */
+    font-weight: bold; /* Define a espessura da fonte como negrito */
+    font-size: 20px; /* Ajuste conforme necessário */
+    transition: opacity 0.3s ease-in-out; /* Adicione uma transição suave */
+}
+
+/* Estilos para os links na barra de navegação ao passar o mouse sobre eles */
+nav a:hover {
+    color: rgb(9, 85, 6); /* Altera a cor do texto para preto */
+    text-decoration: none; /* Remove decoração de texto */
+    opacity: 0.8; /* Reduza um pouco a opacidade ao passar o mouse */
+}
+/* Estilos para a seção do logo */
+.logo_caixa {
+    position: relative; /* Define o posicionamento relativo */
+    width: 1200px; /* Define a largura como 940 pixels */
+    margin: auto; /* Centraliza horizontalmente com margens automáticas */
+    padding-left: 17px;
+}
+
+/* Estilos para o logo */
+.logo {
+    width: 50%; /* Define a largura como metade do elemento pai (.logo_caixa) */
+}
+
+/* Estilos para o banner */
+.banner {
+    width: 100%; /* Define a largura como 100% */
+    height: 100%; /* Define a altura como 100% */
+}
+
+/* ---------------------------------------------------------------------------------------- */
+/* 
+/* ---------------------------------------------------------------------------------------- */
+
+
+
+/* Estilos para a seção "Sobre a empresa Mr Buddyshop" */
+.monkey {
+    position: relative; /* Define o posicionamento relativo */
+    width: 200px; /* Define a largura como 100 pixels */
+    float: left; /* Flutua à esquerda */
+    margin: 0 20px 0 0; /* Define margens */
+    padding-left: 10%;
+}
+
+.titulo-ganja {
+    position: relative; /* Define o posicionamento relativo */
+    text-align: center; /* Centraliza o texto horizontalmente */
+    clear: left; /* Limpa a flutuação à esquerda anterior */
+    font-size: 2em; /* Define o tamanho da fonte como o dobro do tamanho padrão */
+    margin: 0;
+    padding: 80px 0 30px 0;
+    
+}
+
+.sobre-nós{
+    background-color: green;
+    width: 100%;
+   
+    padding-bottom: 20px;
+    
+}
+.titulo-padrao {
+    text-align: center; /* Centraliza o texto horizontalmente */
+    clear: left; /* Limpa a flutuação à esquerda anterior */
+    font-size: 2em; /* Define o tamanho da fonte como o dobro do tamanho padrão */
+    margin: 0;
+    padding: 30px 0 20px 0;
+}
+/*Estilização da sessão Nosso Estabelecimento*/
+.mapa {
+    text-align: center;
+    background: linear-gradient(green, #da8012);
+}
+
+/**********************************/
+/*Estilização da sessão beneficios*/
+/**********************************/
+.beneficios{
+       background-color: #da8012;
+}
+.lista-beneficios {
+    list-style: "👽";
+    width: 25%;
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 32%;
+
+}
+.lista-beneficios li{
+    line-height: 1.5; /*Espaçamentos de linhas do word*/
+}
+.lista-beneficios li::before{
+    content: "🖐";
+}
+
+.lista-beneficios li:first-child{
+    font-weight: bold;
+}
+.lista-beneficios li:last-child{
+
+    font-weight: bold;
+    font-size: x-large;
+  
+}
+.img_beneficios {
+    width: 180px;
+    box-shadow: 8px 8px 5px 0 black; /*colocando sombra na imagem */
+    opacity: 1;
+    transition: 400ms;
+   
+}
+.img_beneficios:hover{
+    opacity: 0.7;  /*quando passa o mouse em cima a imagem fica diferente*/
+}
+.conteudo-beneficios {
+    width: 100%;
+}
+.video{
+    padding-left: 35%;
+}
+
+/*******************************************************************************/
+                      /* Estilização do Footer*/
+/*******************************************************************************/
+footer{
+    text-align: center;
+    margin: 0 auto;
+    background-color: black;
+    padding:40px 0 40px 0;
+}
+.copyright{
+    color: white;
+    font-size: 12px;
+    margin: 20px;
+}
+.logo_footer{
+    width: 5%;
+}

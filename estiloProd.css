@@ -1,0 +1,164 @@
+/* Definindo estilos para o corpo da página */
+body {
+    font-family: "Arial"; /* Define a família de fontes para o texto */
+    margin: 0; /* Remove margens externas */
+    padding: 0; /* Remove espaçamento interno */
+    border: 0; /* Remove borda */
+}
+
+/* Estilos para o cabeçalho */
+header {
+    background-color: #bb6d49; /* Define a cor de fundo */
+}
+
+/* Estilos para a seção de imagens e barra de navegação */
+.imagens-e-nav {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px; /* Ajuste conforme necessário */
+}
+
+/* Estilos para a barra de navegação */
+nav {
+    position: absolute; /* Define o posicionamento absoluto */
+    right: 392px ; /* Margem direita de 50 pixels */
+    top: 40%; /* Margem superior de 80 pixels */
+}
+
+/* Estilos para os itens da barra de navegação */
+nav ul {
+    list-style: none; /* Remove marcadores de lista */
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline; /* Exibe os itens em linha */
+    margin: 0 15px; /* Ajuste conforme necessário */
+}
+
+/* Estilos para os links na barra de navegação */
+nav a {
+    color: rgb(161, 245, 25); /* Define a cor do texto */
+    text-decoration: none; /* Remove decoração de texto */
+    text-transform: auto; /* Transformação de texto automática */
+    font-weight: bold; /* Define a espessura da fonte como negrito */
+    font-size: 20px; /* Ajuste conforme necessário */
+    transition: opacity 0.3s ease-in-out; /* Adicione uma transição suave */
+}
+
+/* Estilos para os links na barra de navegação ao passar o mouse sobre eles */
+nav a:hover {
+    color: rgb(9, 85, 6); /* Altera a cor do texto para preto */
+    text-decoration: none; /* Remove decoração de texto */
+    opacity: 0.8; /* Reduza um pouco a opacidade ao passar o mouse */
+}
+
+/* Estilos para a seção do logo */
+.logo_caixa {
+    position: relative; /* Define o posicionamento relativo */
+    width: 1200px; /* Define a largura como 940 pixels */
+    margin: auto; /* Centraliza horizontalmente com margens automáticas */
+    padding-left: 17px;
+}
+
+/* Estilos para o logo */
+.Mr.Cake {
+    width: 50%; /* Define a largura como metade do elemento pai (.logo_caixa) */
+}
+
+
+.titulo-produto {
+    color: rgb(161, 245, 25);
+    text-align: left;
+    font-size: 3em;
+    margin: 0;
+    padding: 40px 15px 40px 100px;
+    -webkit-text-stroke-color: #000;
+    -webkit-text-stroke-width: 3px;
+}
+.Tabacaria {
+    color: rgb(223, 99, 28);
+    text-align: left;
+    font-size: 3em;
+    margin: 0;
+    padding: 40px 15px 40px 100px;
+    -webkit-text-stroke-color: #000;
+    -webkit-text-stroke-width: 3px;
+}
+
+
+/* moldura */
+.quadrado {
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    margin: 80px 80px 0 225px; /* ajusta para baixo e adiciona margem para separação */
+    display: inline-block;
+}
+
+.quadrado2 {
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    margin: 80px 160px 0 120px; /* ajusta para baixo e adiciona margem para separação */
+    display: inline-block;
+}
+
+.quadrado3 {
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    margin: 80px 160px 0 40px; /* ajusta para baixo e adiciona margem para separação */
+    display: inline-block;
+}
+
+.quadrado4 {
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    margin: 80px 0 0 40px; /* ajusta para baixo e adiciona margem para separação */
+    display: inline-block;
+}
+
+/*******************************************************************************/
+                      /* Estilização do Footer*/
+/*******************************************************************************/
+body {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+.wrapper {
+    min-height: 100%;
+    margin-bottom: -40px; /* Ajuste para o tamanho do seu rodapé */
+}
+
+.content {
+    padding-bottom: 40px; /* Tamanho do seu rodapé */
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    padding: 40px 0;
+}
+
+.copyright {
+    color: white;
+    font-size: 12px;
+    margin: 20px;
+}
+
+.logo_footer {
+    width: 5%;
+}
